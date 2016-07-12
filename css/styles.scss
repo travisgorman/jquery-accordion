@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+main {
+  width: 258px;
+  margin: 2em auto;
+  color: #fff;
+  font-family: sans-serif;
+  border: 2px solid #404247;
+}
+p {
+  display: block;
+  height: 34px;
+  width: 254px;
+  border-bottom: 1px solid #404247;
+  background: linear-gradient( 180deg, #797A80, #4C4E52 );
+}
+p.item{
+  cursor: auto;
+  width: 254px;
+  height: 34px;
+  background: #E5E5E5;
+  color: #797979;
+}
+p:hover {
+  background: linear-gradient( 180deg, #ADC25B, #75892C );
+  color: #445213;
+}
+p.active {
+  background: linear-gradient( 180deg, #ADC25B, #75892C );
+  color: #445213;
+}
+
+.hide{
+  height: 34px;
+  overflow: hidden;
+}
+li { 
+  width: 254px;
+  list-style-type: none;
+}
+li.menu {
+  cursor: pointer;
+}
+
+// green 
+// #ADC25B celery
+// #75892C wasabi
+
+// green color
+// #445213 verdun
+
+// list bg 
+// #E5E5E5 mercury
+
+// list color
+// #797979 boulder
+
+// gray
+// #797A80 jumbo
+// #4C4E52 abby
+
+// gray color
+// #404247 paynes
